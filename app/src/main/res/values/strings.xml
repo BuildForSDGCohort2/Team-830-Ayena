@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Ayena</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="signin">Sign in</string>
+    <string name="register">Register</string>
+    <string name="signin_facebook">Sign in via Facebook</string>
+    <string name="register_facebook">Register via Facebook</string>
+    <string name="offer_service">I want to Offer Ayena Services</string>
+    <string name="request_service">I want to Request for Ayena Services </string>
+    <string name="email_address">Email Address</string>
+    <string name="create_account">Create Ayena Account</string>
+    <string name="sign_in">Sign in to Ayena</string>
+    <string name="karibu_sana">Karibu Sana</string>
+    <string name="Ayena_Sign_in">Ayena Sign In</string>
+    <string name="ayena_register">Ayena Register</string>
+    <string name="proceed">Proceed</string>
+    <string name="or">OR</string>
+    <string name="intentions">What is your intention?</string>
+    <string name="facebook_app_id">1321111014930163</string>
+    <string name="fb_login_protocol_scheme">fb1321111014930163</string>
+    <string name="password_less">Enter your email address below to continue</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sarah_steiner">Sarah Steiner</string>
+    <string-array name="service_providers">
+        <item>Mary Otieno</item>
+        <item>Mercy Njeri</item>
+        <item>Lorna Karwitha</item>
+        <item>Melisa Cheruto</item>
+        <item>Dorothy Mueni</item>
+        <item>Amanda Mueni</item>
+        <item>Ayana Pendo</item>
+        <item>Cynthia Gaceri</item>
+        <item>Eric Muriungi</item>
+        <item>Jane Jepkorir</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>This is a random description</item>
+        <item>This is a random description</item>
+        <item>This is a random description</item>
+        <item>This is a random description</item>
+        <item>This is a random description</item>
+        <item>This is a random description</item>
+        <item>This is a random description</item>
+        <item>This is a random description</item>
+        <item>This is a random description</item>
+        <item>This is a random description</item>
+    </string-array>
+    <string name="Google_api_key">AIzaSyD5xr1ep-KbzapPyQ6lOxnnAj3LzEqMfJI</string>
+    <string name="twitterUsername">\@melisacgitonga</string>
+    <string name="title_activity_ayena_maps">Map</string>
+
+</resources>

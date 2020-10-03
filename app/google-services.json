@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "550537969434",
+    "firebase_url": "https://ayena-cd9a4.firebaseio.com",
+    "project_id": "ayena-cd9a4",
+    "storage_bucket": "ayena-cd9a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550537969434:android:847419c93405fa50e376a3",
+        "android_client_info": {
+          "package_name": "com.example.ayena"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550537969434-egfi576o4nq39r1gqql8sr56dkjmhc77.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF01JGKIVhAlSofuG2znw-RLSi7hqYY4o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550537969434-egfi576o4nq39r1gqql8sr56dkjmhc77.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

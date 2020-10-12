@@ -7,22 +7,22 @@
 
     <fragment
         android:id="@+id/exploreFragment"
-        android:name="com.example.ayena.ExploreFragment"
+        android:name="com.smashgames.ayena.ExploreFragment"
         android:label="fragment_explore"
         tools:layout="@layout/fragment_explore" />
     <fragment
         android:id="@+id/myProfileFragment"
-        android:name="com.example.ayena.MyProfileFragment"
+        android:name="com.smashgames.ayena.MyProfileFragment"
         android:label="fragment_my_profile"
         tools:layout="@layout/fragment_my_profile" />
     <fragment
         android:id="@+id/feedsFragment"
-        android:name="com.example.ayena.FeedsFragment"
+        android:name="com.smashgames.ayena.FeedsFragment"
         android:label="fragment_feeds"
         tools:layout="@layout/fragment_feeds" />
     <fragment
         android:id="@+id/postFragment"
-        android:name="com.example.ayena.PostFragment"
+        android:name="com.smashgames.ayena.PostFragment"
         android:label="fragment_post"
         tools:layout="@layout/fragment_post" />
 </navigation>

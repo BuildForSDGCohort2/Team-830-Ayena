@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Payment_successful"
+    android:background="@drawable/ic_mainsplash_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment successful. Welcome to Ayena"
+        android:textColor="@color/greenish"
+        android:textSize="34sp"
+        android:fontFamily="@font/amita"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="75dp"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/white_border"
+        android:layout_marginLeft="130dp"
+        android:src="@drawable/ic_succesful"
+        android:layout_marginTop="250dp"
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="130dp"
+        android:text="@string/proceed"
+        android:background="@drawable/white_border"
+        android:textColor="@color/black"
+        android:fontFamily="@font/amita"
+        android:id="@+id/proceed_payment_success"
+        />
+
+</RelativeLayout>

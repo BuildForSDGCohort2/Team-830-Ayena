@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:background="@color/white"
     android:layout_height="wrap_content"
-    tools:context="com.example.ayena.home">
+    tools:context="com.smashgames.ayena.home">
 
     <com.ismaeldivita.chipnavigation.ChipNavigationBar
         android:id="@+id/chipnaviation"

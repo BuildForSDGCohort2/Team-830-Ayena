@@ -1,57 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/hot_pink">
+    android:background="@drawable/ic_mainsplash_background">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="361dp"
         android:layout_height="43dp"
         android:fontFamily="@font/amita"
+        android:layout_marginTop="25dp"
         android:text="@string/intentions"
-        android:textColor="@color/colorPrimary"
+        android:textColor="@color/greenish"
+        android:layout_marginLeft="25dp"
         android:textSize="21sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.224" />
+         />
 
     <Button
         android:id="@+id/request_for_service_btn"
-        android:layout_width="386dp"
-        android:layout_height="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:fontFamily="@font/amita"
-        android:text="@string/request_service"
+        android:layout_marginLeft="25dp"
+        android:text="Request for a service"
         android:textColor="@color/colorAccent"
         android:textSize="15sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.339" />
+        android:layout_marginTop="125dp"
+         />
 
     <Button
         android:id="@+id/offer_ayena_service_button"
-        android:layout_width="361dp"
-        android:layout_height="55dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:fontFamily="@font/amita"
-        android:text="@string/offer_service"
+        android:layout_marginLeft="25dp"
+        android:text="Offer a service"
         android:textColor="@color/colorAccent"
         android:textSize="15sp"
+        android:layout_marginTop="225dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        />
 
     <ProgressBar
         android:id="@+id/progressBar_intentions"
@@ -59,10 +52,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="invisible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.658" />
+         />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
